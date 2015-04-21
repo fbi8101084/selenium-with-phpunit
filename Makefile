@@ -1,3 +1,4 @@
+
 all:
 	rm -rf server
     mkdir server || true
