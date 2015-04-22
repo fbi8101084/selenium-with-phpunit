@@ -1,11 +1,17 @@
 all:
 	rm -rf server
+	rm -rf tmp
 	mkdir server || true
-	curl -o selenium-server-standalone-2.45.0.jar http://selenium-release.storage.googleapis.com/2.45/selenium-server-standalone-2.45.0.jar
-	curl -o phpunit.phar https://phar.phpunit.de/phpunit.phar
-	mv selenium-server-standalone-2.45.0.jar server/
-	chmod +x phpunit.phar
-	sudo mv phpunit.phar /usr/local/bin/phpunit
+	mkdir tmp || true
+	curl -o tmp/selenium-server-standalone-2.45.0.jar http://selenium-release.storage.googleapis.com/2.45/selenium-server-standalone-2.45.0.jar
+	curl -o tmp/chromedriver_mac32.zip http://chromedriver.storage.googleapis.com/2.15/chromedriver_mac32.zip
+	curl -o tmp/phpunit.phar https://phar.phpunit.de/phpunit.phar
+	unzip tmp/chromedriver_mac32.zip
+	mv tmp/selenium-server-standalone-2.45.0.jar server/
+	mv chromedriver server/
+	chmod +x tmp/phpunit.phar
+	sudo mv tmp/phpunit.phar /usr/local/bin/phpunit
+	rm -rf tmp/*
 	phpunit --version
 
 run:
