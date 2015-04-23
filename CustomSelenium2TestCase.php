@@ -20,4 +20,8 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
             )
         );
     }
+    protected function _assertRequestStatus($url, $status = 200) {
+        file_get_contents($url);
+        return (bool) preg_match('/.+' . $status . '.+/i', $http_response_header[0]);
+    }
 }
