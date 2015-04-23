@@ -15,3 +15,6 @@
 2. 下 `make` 由 Makfile 自動幫你完成安裝
 3. `make run`: 啟動 Selenium RC Server
 
+### 參考資料
+- [PHPUnit 文件](https://phpunit.de/manual/current/zh_cn/index.html)
+- [Selenium2 with PHPUnit 文件](http://shortwhitebaldguy.com/blog/2012/09/using-selenium2-with-phpunit)
