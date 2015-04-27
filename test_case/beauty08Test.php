@@ -2,12 +2,19 @@
 require_once 'CustomSelenium2TestCase.php';
 class Beauty08 extends CustomSelenium2TestCase
 {
+    public static function browsers() {
+
+        return  array(
+            self::$_browsersList['chrome']
+        );
+    }
+
     protected function setUp()
     {
         $this->setBrowserUrl("http://www.fashionguide.com.tw/");
     }
 
-    public function testMyTestCase()
+    public function testMain()
     {
         $this->url("/beauty/08/index.html?from=fgindex");
         // logo
@@ -211,24 +218,14 @@ class Beauty08 extends CustomSelenium2TestCase
         $this->assertTrue($this->_assertRequestStatus($el->attribute('src')), '圖片可能有破圖');
 
         // ============= 檢查廣告板位 ==============
-        $isExsit = $this->isElementPresent("css=.AdBlock_Loc_152");
-        $this->assertTrue($isExsit);
-        if ($isExsit) {
-            $el = $this->byCssSelector('.AdBlock_Loc_152');
-            $this->assertExsit($el->displayed());
-        }
 
-        $isExsit = $this->isElementPresent("css=.AdBlock_Loc_1523");
-        $this->assertTrue($isExsit);
-        if ($isExsit) {
-            $el = $this->byCssSelector('.AdBlock_Loc_152');
-            $this->assertExsit($el->displayed());
-        }
-
-        // 拍照
-        $filedata = $this->currentScreenshot();
-        $filepath = 'screenshots/' . get_class($this) . '.png';
-        file_put_contents($filepath, $filedata);
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_18');
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_152');
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_154');
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_155');
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_156');
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_157');
+        $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_162');
     }
 }
 
