@@ -218,7 +218,6 @@ class Beauty08 extends CustomSelenium2TestCase
         $this->assertTrue($this->_assertRequestStatus($el->attribute('src')), '圖片可能有破圖');
 
         // ============= 檢查廣告板位 ==============
-
         $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_18');
         $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_152');
         $this->_assertAdElementPresent('.AdBlock.AdBlock_Loc_154');
