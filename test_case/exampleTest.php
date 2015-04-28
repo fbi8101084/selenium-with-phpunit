@@ -1,6 +1,6 @@
 <?php
 require_once 'CustomSelenium2TestCase.php';
-class Beauty08 extends CustomSelenium2TestCase
+class Sample extends CustomSelenium2TestCase
 {
     public static function browsers() {
 
