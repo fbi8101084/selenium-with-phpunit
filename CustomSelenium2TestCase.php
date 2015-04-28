@@ -46,9 +46,13 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
     }
 
     protected function _screenShot($name) {
-        $filedata = $this->currentScreenshot();
-        $filepath = 'screenshots/' . $name . '.png';
-        file_put_contents($filepath, $filedata);
-        return true;
+        try {
+            $filedata = $this->currentScreenshot();
+            $filepath = 'screenshots/' . $name . '.png';
+            file_put_contents($filepath, $filedata);
+            return true;
+        } catch (Exception $e) {
+            echo "Site Name: " . $name . " => " . $e->getMessage() . "\n";
+        }
     }
 }
