@@ -40,7 +40,7 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
             return true;
 
         } catch (Exception $e) {
-            echo $e->getMessage() . "\n";
+            echo "\033[01;31m Selector: " . $cssSelector . " => " . $e->getMessage() . "\033[0m\n";
             return false;
         }
     }
