@@ -20,6 +20,7 @@
 ### 撰寫（頻道）腳本
 - 請直接複製 `test_case\exampleTest.php` 並修改檔名，檔案名稱必須是 `Test.php` 結尾，Ex: xxxxTest.php
 - class name 改一下，不要跟其他腳本重複
+- 修改網址，`$this->url('{這裡輸入你要開啟的網頁網址}');`
 - 破圖檢查：利用 chrome 瀏覽器取得要檢查的圖片的 XPath，然後像這樣貼上XPath 就可以完成這個圖片的破圖測試了：
 
 - 
