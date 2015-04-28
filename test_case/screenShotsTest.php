@@ -102,5 +102,3 @@ class screenShots extends CustomSelenium2TestCase
 }
 
 ?>
-
-
