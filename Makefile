@@ -16,7 +16,7 @@ all:
 	phpunit --version
 
 run:
-	java -jar server/selenium-server-standalone-2.45.0.jar
+	java -jar server/selenium-server-standalone-2.45.0.jar -Xmx2048m
 
 test:
 	phpunit test_case/
