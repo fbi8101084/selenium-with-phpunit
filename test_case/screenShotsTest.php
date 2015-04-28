@@ -94,9 +94,13 @@ class screenShots extends CustomSelenium2TestCase
 
     public function testMain()
     {
-        $this->url("/beauty/08/index.html?from=fgindex");
-        $this->_screenShot(get_class($this));
+        foreach (self::$_url_list as $key => $value) {
+            $this->url($value);
+            $this->_screenShot($key);
+        }
     }
 }
 
 ?>
+
+
