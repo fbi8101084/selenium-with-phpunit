@@ -52,7 +52,7 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
             file_put_contents($filepath, $filedata);
             return true;
         } catch (Exception $e) {
-            echo "Site Name: " . $name . " => " . $e->getMessage() . "\n";
+            echo "\033[01;31m Site Name: " . $name . " => " . $e->getMessage() . "\033[0m\n";
         }
     }
 }
