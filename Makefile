@@ -9,7 +9,7 @@ all:
 	curl -o tmp/phpunit.phar https://phar.phpunit.de/phpunit.phar
 	unzip tmp/chromedriver_mac32.zip
 	mv tmp/selenium-server-standalone-2.45.0.jar server/
-	mv chromedriver server/
+	sudo mv chromedriver /usr/local/bin/
 	chmod +x tmp/phpunit.phar
 	sudo mv tmp/phpunit.phar /usr/local/bin/phpunit
 	rm -rf tmp/*
