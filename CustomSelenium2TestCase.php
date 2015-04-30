@@ -1,5 +1,6 @@
 <?php
-class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
+abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase
+{
     protected static $_browsersList = array(
         'firefox' => array(
             'browserName' => 'firefox',
@@ -15,13 +16,23 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
         )
     );
 
-    protected function _assertRequestStatus($url, $status = 200) {
+    public static function browsers()
+    {
+        return array(
+            self::$_browsersList['firefox']
+        );
+    }
+
+    protected function _assertRequestStatus($url, $status = 200)
+    {
         file_get_contents($url);
         return (bool) preg_match('/.+' . $status . '.+/i', $http_response_header[0]);
     }
 
-    protected function _assertAdElementPresent($cssSelector) {
+    protected function _assertAdElementPresent($cssSelector)
+    {
         try {
+
             // 檢查外框是否存在
             $adBlocks = $this->elements($this->using('css selector')->value($cssSelector));
 
@@ -45,7 +56,8 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
         }
     }
 
-    protected function _screenShot($name) {
+    protected function _screenShot($name)
+    {
         try {
             $filedata = $this->currentScreenshot();
             $filepath = 'screenshots/' . $name . '.png';
@@ -54,5 +66,49 @@ class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestCase {
         } catch (Exception $e) {
             echo "\033[01;31m Site Name: " . $name . " => " . $e->getMessage() . "\033[0m\n";
         }
+    }
+
+    /**
+     * 測試通用項目
+     *
+     */
+    public function testCommon()
+    {
+        foreach($this->_loadConfig() as $url => $data) {
+            $this->url($url);
+
+            if(isset($data['imgs'])) {
+                foreach($data['imgs'] as $img => $name) {
+                    $this->_assertImg($img, $name);
+                }
+            }
+
+            if(isset($data['ad'])) {
+                foreach($data['ad'] as $ad) {
+                    $this->_assertAdElementPresent($ad);
+                }
+            }
+
+        }
+    }
+
+    protected function _assertImg($xPath, $name)
+    {
+        $el = $this->byXPath($xPath);
+        $this->assertTrue($this->_assertRequestStatus($el->attribute('src')), $name . '圖片可能有破圖');
+    }
+
+    protected function _loadConfig()
+    {
+        $class = get_class($this);
+        $configName = substr($class, 0, strpos($class, 'Test'));
+        $configName = lcfirst($configName);
+
+        $file = __DIR__ . '/config/' . $configName . '.php';
+        if(!file_exists($file)) {
+            throw new Exception('config file "' . $configName . '" dosen\'t exists');
+        }
+
+        return require $file;
     }
 }
