@@ -16,7 +16,7 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
         )
     );
 
-    public static function browsers()
+    public function browsers()
     {
         return array(
             self::$_browsersList['firefox']
