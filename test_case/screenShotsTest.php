@@ -57,8 +57,15 @@ class screenShots extends CustomSelenium2TestCase
         'forum_3'               => 'http://forum.fashionguide.com.tw/topic_list.php?forum_id=3&from=forumHomeBar', // - freetalk討論區
         'forum_6'               => 'http://forum.fashionguide.com.tw/topic_list.php?forum_id=6&from=forumHomeBar', // - 醫美纖體討論區
         'forum_topic_new_all'   => 'http://forum.fashionguide.com.tw/topic_new_all.php', // - 張貼新話題
+        'forum_post_1'          => 'http://forum.fashionguide.com.tw/post.php?forum_id=1&action=post&LinkTo=TopicL', // - Fashion時尚討論區張貼新話題內頁
+        'forum_post_2'          => 'http://forum.fashionguide.com.tw/post.php?forum_id=2&action=post&LinkTo=TopicL', // - Beauty美容討論區張貼新話題內頁
+        'forum_post_3'          => 'http://forum.fashionguide.com.tw/post.php?forum_id=3&action=post&LinkTo=TopicL', // - Freetalk哈啦討論區張貼新話題內頁
+        'forum_post_6'          => 'http://forum.fashionguide.com.tw/post.php?forum_id=6&action=post&LinkTo=TopicL', // - 醫美纖體討論區張貼新話題內頁
 
         'member'                => 'http://member.fashionguide.com.tw/login.php?url=http%3A%2F%2Fmember.fashiong,uide.com.tw%2F', // 會員中心
+        'member_rule'           => 'http://member.fashionguide.com.tw/account/', // 加入會員頁
+        'member_index'          => 'hhttp://member.fashionguide.com.tw/index.php', // 會員中心首頁
+        'member_account'        => 'http://member.fashionguide.com.tw/account/member.php', // 登入會員中心後的頁面
 
         'fit'                   => 'http://fit.fashionguide.com.tw/', // 醫美
         'fit_forum'             => 'http://fit.fashionguide.com.tw/index.php/forum/topic_list', //  - 討論區
