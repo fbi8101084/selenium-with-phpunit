@@ -43,14 +43,14 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
             $adBlocks = $this->elements($this->using('css selector')->value($cssSelector));
 
             foreach ($adBlocks as $adBlock) {
-                $this->assertEquals(true, $adBlock->displayed(), 'Test Failed: ' . $cssSelector . ' 廣告不可見（工程部協助）。\n');
+                $this->assertTrue($adBlock->displayed(), 'Test Failed: ' . $cssSelector . ' 廣告不可見（工程部協助）。');
                 if ($adBlock->displayed()) {
 
                     // 檢查是否有廣告內容
                     $items = $this->elements($this->using('css selector')->value($cssSelector . '>div'));
 
                     foreach ($items as $item) {
-                        $this->assertEquals(true, $item->displayed(), 'Test Failed: ' . $cssSelector . ' 的內容不可見（）。\n');
+                        $this->assertTrue($item->displayed(), 'Test Failed: ' . $cssSelector . ' 的內容不可見（可能沒有廣告，請業務協助）。');
                     }
                 }
             }
