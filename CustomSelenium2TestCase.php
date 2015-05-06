@@ -57,7 +57,7 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
             return true;
 
         } catch (Exception $e) {
-            echo "\033[01;31m Selector: " . $cssSelector . " => " . $e->getMessage() . "\033[0m\n";
+            echo " Selector: \033[01;31m" . $cssSelector . "\033[0m => " . $e->getMessage() . "\n";
             return false;
         }
     }
@@ -70,7 +70,7 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
             file_put_contents($filepath, $filedata);
             return true;
         } catch (Exception $e) {
-            echo "\033[01;31m Site Name: " . $name . " => " . $e->getMessage() . "\033[0m\n";
+            echo " Site Name: \033[01;31m" . $name . "\033[0m\n => " . $e->getMessage() . "";
         }
     }
 
