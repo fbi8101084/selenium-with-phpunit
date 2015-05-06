@@ -14,9 +14,6 @@ class Beauty08ResL extends CustomSelenium2TestCase
         $this->setBrowserUrl("http://www.fashionguide.com.tw/");
     }
 
-    public function testCommon() {}
-
-
     private function _assertBackgroundImgExist($xpath) {
         $el = $this->byXPath($xpath);
         preg_match('/http.*\.jpg/', $el->attribute('style'), $matchs);
