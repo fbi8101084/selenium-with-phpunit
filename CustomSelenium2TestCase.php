@@ -74,21 +74,24 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
      */
     public function testCommon()
     {
-        foreach($this->_loadConfig() as $url => $data) {
-            $this->url($url);
+        $configs = $this->_loadConfig();
 
-            if(isset($data['imgs'])) {
-                foreach($data['imgs'] as $img => $name) {
-                    $this->_assertImg($img, $name);
+        if($configs) {
+            foreach($this->_loadConfig() as $url => $data) {
+                $this->url($url);
+
+                if(isset($data['imgs'])) {
+                    foreach($data['imgs'] as $img => $name) {
+                        $this->_assertImg($img, $name);
+                    }
+                }
+
+                if(isset($data['ad'])) {
+                    foreach($data['ad'] as $ad) {
+                        $this->_assertAdElementPresent($ad);
+                    }
                 }
             }
-
-            if(isset($data['ad'])) {
-                foreach($data['ad'] as $ad) {
-                    $this->_assertAdElementPresent($ad);
-                }
-            }
-
         }
     }
 
@@ -106,7 +109,7 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
 
         $file = __DIR__ . '/config/' . $configName . '.php';
         if(!file_exists($file)) {
-            throw new Exception('config file "' . $configName . '" dosen\'t exists');
+            return false;
         }
 
         return require $file;
