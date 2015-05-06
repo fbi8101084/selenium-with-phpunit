@@ -29,6 +29,12 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
         return (bool) preg_match('/.+' . $status . '.+/i', $http_response_header[0]);
     }
 
+    protected function _assertImgExist($xpath, $errMsg = '圖片可能有破圖')
+    {
+        $el = $this->byXPath($xpath);
+        $this->assertTrue($this->_assertRequestStatus($el->attribute('src')), $errMsg);
+    }
+
     protected function _assertAdElementPresent($cssSelector)
     {
         try {
