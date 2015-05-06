@@ -42,8 +42,8 @@ abstract class CustomSelenium2TestCase extends PHPUnit_Extensions_Selenium2TestC
             // 檢查外框是否存在
             $adBlocks = $this->elements($this->using('css selector')->value($cssSelector));
 
-            foreach ($adBlocks as $adBlock) {
-                $this->assertTrue($adBlock->displayed(), 'Test Failed: ' . $cssSelector . ' 廣告不可見（工程部協助）。');
+            foreach ($adBlocks as $index => $adBlock) {
+                $this->assertTrue($adBlock->displayed(), 'Test Failed: ' . $cssSelector . '[' . $index . '] 廣告不可見（工程部協助）。');
                 if ($adBlock->displayed()) {
 
                     // 檢查是否有廣告內容
