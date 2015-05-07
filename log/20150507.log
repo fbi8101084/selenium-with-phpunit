@@ -1,0 +1,253 @@
+phpunit test_case/
+PHPUnit 4.6.6 by Sebastian Bergmann and contributors.
+
+. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_46 => Test Failed: .AdBlock.AdBlock_Loc_46[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_47 => Test Failed: .AdBlock.AdBlock_Loc_47[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.... Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.......... Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_47 => Test Failed: .AdBlock.AdBlock_Loc_47[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_46 => Test Failed: .AdBlock.AdBlock_Loc_46[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_47 => Test Failed: .AdBlock.AdBlock_Loc_47[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_26 => Test Failed: .AdBlock.AdBlock_Loc_26[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_47 => Test Failed: .AdBlock.AdBlock_Loc_47[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_46 => Test Failed: .AdBlock.AdBlock_Loc_46[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_47 => Test Failed: .AdBlock.AdBlock_Loc_47[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_46 => Test Failed: .AdBlock.AdBlock_Loc_46[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.. Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_25 => Test Failed: .AdBlock.AdBlock_Loc_25[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_26 => Test Failed: .AdBlock.AdBlock_Loc_26[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.E.E.E.E.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_47 => Test Failed: .AdBlock.AdBlock_Loc_47[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_46 => Test Failed: .AdBlock.AdBlock_Loc_46[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+...... Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.E.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+..F.. Selector: .AdBlock.AdBlock_Loc_15 => Test Failed: .AdBlock.AdBlock_Loc_15 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_23 => Test Failed: .AdBlock.AdBlock_Loc_23 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_17 => Test Failed: .AdBlock.AdBlock_Loc_17 的內容不可見（可能沒有廣告，請業務協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_77 => Test Failed: .AdBlock.AdBlock_Loc_77[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+ Selector: .AdBlock.AdBlock_Loc_65 => Test Failed: .AdBlock.AdBlock_Loc_65[0] 廣告不可見（工程部協助）。
+Failed asserting that false is true.
+.E....F.....
+
+Time: 35.98 minutes, Memory: 27.00Mb
+
+There were 6 errors:
+
+1) Forum_post_1Test::testMain
+PHPUnit_Extensions_Selenium2TestCase_WebDriverException: Unexpected modal dialog (text: 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。): 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'fgsysadmdembp-3.lan', ip: '192.168.10.169', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f339bcb0-9c49-294e-b0d9-607dacbfa2ae
+*** Element info: {Using=xpath, value=//*[@id="adLoc_25"]/table/tbody/tr[2]/td/div/div[1]/div[1]/div/a/img}
+org.openqa.selenium.UnhandledAlertException
+
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_1Test.php:25
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_1Test.php:25
+
+2) Forum_post_2Test::testMain
+PHPUnit_Extensions_Selenium2TestCase_WebDriverException: Unexpected modal dialog (text: 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。): 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'fgsysadmdembp-3.lan', ip: '192.168.10.169', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 891629ab-de28-9449-b58a-3f6833b1542d
+*** Element info: {Using=xpath, value=//*[@id="adLoc_25"]/table/tbody/tr[2]/td/div/div[1]/div[1]/div/a/img}
+org.openqa.selenium.UnhandledAlertException
+
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_2Test.php:25
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_2Test.php:25
+
+3) Forum_post_3Test::testMain
+PHPUnit_Extensions_Selenium2TestCase_WebDriverException: Unexpected modal dialog (text: 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。): 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'fgsysadmdembp-3.lan', ip: '192.168.10.169', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bf908610-3a3e-0044-8306-9d6231fd31d2
+*** Element info: {Using=xpath, value=//*[@id="adLoc_25"]/table/tbody/tr[2]/td/div/div[1]/div[1]/div/a/img}
+org.openqa.selenium.UnhandledAlertException
+
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_3Test.php:25
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_3Test.php:25
+
+4) Forum_post_6Test::testMain
+PHPUnit_Extensions_Selenium2TestCase_WebDriverException: Unexpected modal dialog (text: 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。): 抱歉，如果您持續看到這段訊息，可能是因為您的電腦設定有問題或是瀏覽器版本太舊，您也可詢問服務台。
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'fgsysadmdembp-3.lan', ip: '192.168.10.169', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d6634d68-cb97-c242-8a77-ed1695d0dda8
+*** Element info: {Using=xpath, value=//*[@id="adLoc_25"]/table/tbody/tr[2]/td/div/div[1]/div[1]/div/a/img}
+org.openqa.selenium.UnhandledAlertException
+
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_6Test.php:25
+/Users/fg/work/selenium-with-phpunit/test_case/forum_post_6Test.php:25
+
+5) Member_accountTest::testMain
+PHPUnit_Extensions_Selenium2TestCase_WebDriverException: Unable to locate element: {"method":"xpath","selector":"//*[@id=\"mainpic_header\"]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'fgsysadmdembp-3.lan', ip: '192.168.10.169', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+org.openqa.selenium.NoSuchElementException
+
+/Users/fg/work/selenium-with-phpunit/test_case/member_accountTest.php:24
+/Users/fg/work/selenium-with-phpunit/test_case/member_accountTest.php:24
+
+6) Sale_bestbuyTest::testMain
+file_get_contents(): Filename cannot be empty
+
+/Users/fg/work/selenium-with-phpunit/CustomSelenium2TestCase.php:28
+/Users/fg/work/selenium-with-phpunit/test_case/sale_bestbuyTest.php:283
+
+--
+
+There were 2 failures:
+
+1) NewsTest::testSearch
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'http://search.fashionguide.com.tw/?q=%E7%BE%8E%E7%99%BD'
++'http://search.fashionguide.com.tw/?q=%E8%BC%B8%E5%85%A5%E5%93%81%E7%89%8C(%E5%90%8D)%E6%88%96%E9%97%9C%E9%8D%B5%E5%AD%97%E7%BE%8E%E7%99%BD'
+
+/Users/fg/work/selenium-with-phpunit/test_case/newsTest.php:31
+
+2) StyleTest::testLogin
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'http://style.fashionguide.com.tw/platform/index'
++'http://style.fashionguide.com.tw/'
+
+/Users/fg/work/selenium-with-phpunit/test_case/styleTest.php:30
+
+FAILURES!
+Tests: 62, Assertions: 2084, Errors: 6, Failures: 2.
+make: *** [test] Error 2
